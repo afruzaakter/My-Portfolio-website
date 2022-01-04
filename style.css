@@ -14,10 +14,14 @@ text-align: center;
 h1{
     font-size: 50px;
 }
-section{
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.flexible-container{
    display: flex;
-   justify-content: space-between;
-   align-items: center;
    margin-bottom: 100px;
 }
 .top-banner{
@@ -51,6 +55,40 @@ section{
 .dream-banner{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right;    
+} 
+/* section-4 start */
+.experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 25px;
+}
+.experiences-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px gray;
+    
+   
+}
+#web-experiences{
+    border-image: repeating-linear-gradient(80deg, rgb(82, 12, 67), rgb(100, 27, 235));
+    border-left: 8px solid;
+    border-image-slice: 1;
+    border-radius: 25px;
     
 }
+#full-experiences{
+    border-image: linear-gradient(90deg,#e71caa 20%,  #550b36 20%);
+    border-left: 8px solid;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+
+
