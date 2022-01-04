@@ -22,6 +22,8 @@ p{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    background: linear-gradient(rgb(43, 42, 42), #070799, #66c2ff, 
+    #e9dae6, #ffeee6);
 }
 .f-color{
     color: orange;
@@ -49,7 +51,7 @@ p{
 .dream-banner{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;    
+   background-position: right;  
 } 
 /* section-4 start */
 .experiences-area{
