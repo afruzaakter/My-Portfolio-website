@@ -18,9 +18,9 @@ section{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   gap: 100px;
+   margin-bottom: 100px;
 }
-.top-bannar{
+.top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -31,9 +31,10 @@ section{
     width: 50%;
     padding-left: 4%;
 }
-.images img{
-    width:65%;
+.article img{
+    width:80%;
     margin-top: 30px;
+    margin-left: 60px;
 }
 .link-button{
     text-decoration: none;
@@ -46,4 +47,10 @@ section{
 }
 .link-button:hover{
     background: linear-gradient(90deg,#6e07e4 20%,  #75d634);
+}
+.dream-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
 }
