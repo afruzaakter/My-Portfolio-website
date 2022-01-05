@@ -4,13 +4,16 @@ body{
     margin: 0;
    
 }
-
+.container{
+    max-width: 100%;
+    margin-bottom: 100px;
+}
 
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 h2{
-    font-size: 40px;
+    font-size: 30px;
 }
 p{
     color: dimgray;
@@ -18,22 +21,23 @@ p{
 .flexible-container{
    display: flex;
    margin-bottom: 100px;
+   width: 95%;
+   margin: 0 auto;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    background: linear-gradient(rgb(43, 42, 42), #070799, #66c2ff, 
-    #e9dae6, #ffeee6);
+    background: linear-gradient(rgb(43, 42, 42), #12994F, #66c2ff,#e9dae6, #ffeee6);
 }
 .f-color{
-    color: orange;
+    color: #8E00E6;
 }
 .article{
     width: 50%;
-    padding-left: 4%;
+    padding-left: 2%;
 }
 .article img{
-    width:80%;
+    width:60%;
     margin-left: 60px;
 }
 .link-button{
@@ -52,13 +56,15 @@ p{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
    background-position: right;  
+   margin-top: 80px;
 } 
-/* section-4 start */
+/* section-3 experiences  start */
 .experiences-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
     padding: 25px;
+    margin-top: 80px;
 }
 .experiences-item{
     width: 40%;
@@ -70,6 +76,10 @@ p{
     box-shadow: 10px 10px 40px gray;
     
    
+}
+.Exp-h{
+    width: 95%;
+    margin: 0 auto;
 }
 #web-experiences{
     border-image: repeating-linear-gradient(80deg, rgb(82, 12, 67), rgb(100, 27, 235));
@@ -83,8 +93,151 @@ p{
     border-left: 8px solid;
     border-image-slice: 1;
 }
-footer p{
+/* section-3 experiences end */
+/*Section 4 my project part start */
+.project-title{
+    font-size: 40px;
     text-align: center;
+    border-bottom: 5px solid;
+    border-image-slice: 1;
+    border-image: linear-gradient( red green orange gray);
+    width: 65%;
+    margin: 0 auto;
+}
+.project-grid{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+width: 85%;
+margin: 0 auto;
+margin-top: 80px;
+justify-content: space-between;
+align-items: center;
+gap: 25px;
+border-radius: 10px;
+}
+.project-img img{
+    width: 100%;
+   
+   
+}
+.project-des{
+    padding: 10px;
+}
+.project-items{
+    width: 270px;
+    border: none;
+    box-shadow: 10px 10px 40px gray;
+}
+.project-items:hover{
+    transform: .5s;
+}
+.project-heading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    transition: .1s;
+}
+.project-heading:hover{
+    color: brown;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(45deg, green blue);
+}
+.pro-btn{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.pro-btn a{
+    border: none;
+    padding: 5px;
+    background-image: linear-gradient(45deg, rgb(204, 158, 198), rgb(120, 74, 247), rgb(248, 103, 163));
+    border-radius: 3px; 
+    color: rgb(16, 16, 17);
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+.pro-btn a:hover{
+   background-image: linear-gradient(50deg, rgb(245, 86, 86), rgb(184, 11, 161), rgb(78, 8, 241));
+   border-radius: 3px;
+   color: wheat;
+}
+
+.show-btn{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+.show-btn a{
+    background-image: linear-gradient(45deg, rgb(64, 17, 235), rgb(240, 40, 163), orange);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: wheat;
+    text-transform: uppercase;
+}
+.show-btn a:hover{
+    color: black;
+    background-image: linear-gradient(45deg, rgb(122, 90, 236), rgb(228, 89, 175), rgb(19, 18, 18));
+    border-radius: 10;
+}
+
+/*Section 4 my project part end */
+/* section 5 contact part start */
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+   
+}
+form input, form textarea{
+    padding: 15px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 3px solid gray;
+    font-size: 20px;
+    font-weight: 600;
+}
+form textarea{
+    height: 150px;
+}
+.con-btn{
+    padding: 0 25px 0 25px;
+}
+/* section 5 contact part end */
+/*--footer--*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.copyright{
+    text-align: center;
+    margin-left: 100px;
+}
+.f-social-icon a{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
+    border-radius: 50%;
 }
 
 
